@@ -1,1 +1,3 @@
-[Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+##Behavioral design patterns
+* [Command](https://sourcemaking.com/design_patterns/command)
+* [Observer](https://sourcemaking.com/design_patterns/observer)
