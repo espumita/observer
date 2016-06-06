@@ -1,4 +1,4 @@
-package observers;
+package observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,10 +17,12 @@ public class ObservedClass implements Observable{
         actualizeAll(change);
     }
 
+    @Override
     public void addObserver(Observer observer) {
         observers.add(observer);
     }
 
+    @Override
     public void actualizeAll(String change) {
         observers.forEach( observer -> observer.update(change));
     }
