@@ -5,3 +5,6 @@
 ##Behavioral design patterns
 * [Command](https://sourcemaking.com/design_patterns/command)
 * [Observer](https://sourcemaking.com/design_patterns/observer)
+
+##Other
+* [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)
