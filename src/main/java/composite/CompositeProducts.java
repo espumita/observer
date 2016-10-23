@@ -2,17 +2,17 @@ package composite;
 
 import java.util.List;
 
-public class CompositeProducts implements Component {
-    private final List<Component> components;
+public class CompositeProducts implements Product {
+    private final List<Product> products;
 
-    public CompositeProducts(List<Component> components) {
+    public CompositeProducts(List<Product> products) {
 
-        this.components = components;
+        this.products = products;
     }
 
     @Override
     public double price() {
-        return components.stream()
+        return products.stream()
                 .mapToDouble(x -> x.price()).sum();
     }
 }

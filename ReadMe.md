@@ -6,5 +6,8 @@
 * [Command](https://sourcemaking.com/design_patterns/command)
 * [Observer](https://sourcemaking.com/design_patterns/observer)
 
+##Structural patterns
+* [Compostie](https://sourcemaking.com/design_patterns/composite)
+
 ##Other
 * [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)

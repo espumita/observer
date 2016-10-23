@@ -4,14 +4,14 @@ import java.util.*;
 
 public class Cart {
 
-    private List<Component> components = new ArrayList();
+    private List<Product> products = new ArrayList();
 
     public double totalPrice() {
-        return components.stream()
+        return products.stream()
                 .mapToDouble(x -> x.price()).sum();
     }
 
-    public void add(Component component) {
-        components.add(component);
+    public void add(Product product) {
+        products.add(product);
     }
 }

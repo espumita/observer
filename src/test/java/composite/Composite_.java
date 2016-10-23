@@ -26,7 +26,7 @@ public class Composite_ {
         assertThat(totalPrice,is(30.0));
     }
 
-    private CompositeProducts givenAnCompositeProductWith(Component... products) {
+    private CompositeProducts givenAnCompositeProductWith(Product... products) {
         return new CompositeProducts(Arrays.asList(products));
     }
 }

@@ -1,6 +1,6 @@
 package composite;
 
-public interface Component {
+public interface Product {
 
     double price();
 }

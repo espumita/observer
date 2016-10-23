@@ -1,6 +1,6 @@
 package composite;
 
-public class SingleProduct implements  Component{
+public class SingleProduct implements Product {
     private final String name;
     private final double price;
 
