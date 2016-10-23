@@ -6,7 +6,7 @@
 * [Command](https://sourcemaking.com/design_patterns/command)
 * [Observer](https://sourcemaking.com/design_patterns/observer)
 
-##Structural patterns
+##Structural design patterns
 * [Compostie](https://sourcemaking.com/design_patterns/composite)
 
 ##Other
