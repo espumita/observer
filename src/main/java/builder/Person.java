@@ -8,6 +8,22 @@ public class Person {
     private LocalDate dateOfBirth;
     private String gender;
 
+    public String name() {
+        return name;
+    }
+
+    public String alias() {
+        return alias;
+    }
+
+    public LocalDate dateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public String gender() {
+        return gender;
+    }
+
     public Person(String name, String gender, String alias, LocalDate dateOfBirth) {
         this.name = name;
         this.gender = gender;

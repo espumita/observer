@@ -2,12 +2,11 @@ package composite;
 
 import org.junit.Test;
 
-import java.util.*;
+import java.util.Arrays;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
-public class Composite_ {
+public class CompositeTest {
     @Test
     public void when_cart_got_multiple_and_single_items_should_provide_total_price() throws Exception {
         Cart cart = new Cart();
@@ -23,7 +22,7 @@ public class Composite_ {
 
         double totalPrice = cart.totalPrice();
 
-        assertThat(totalPrice,is(30.0));
+        assertThat(totalPrice).isEqualTo(30.0);
     }
 
     private CompositeProducts givenAnCompositeProductWith(Product... products) {

@@ -5,7 +5,6 @@ public class Command2 implements Command {
     private ReceiverClass receiver;
 
     public Command2(ReceiverClass receiver) {
-
         this.receiver = receiver;
     }
 
